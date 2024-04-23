@@ -59,7 +59,7 @@ namespace Software_Innovatec
 
         private void txtContraseña_Leave(object sender, EventArgs e)
         {
-            if (txtContraseña.Text == "Contraseña")
+            if (txtContraseña.Text == "")
             {
                 txtContraseña.Text = "";
                 txtContraseña.ForeColor = Color.Silver;

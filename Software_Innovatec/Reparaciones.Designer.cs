@@ -44,6 +44,8 @@ namespace Software_Innovatec
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.label13 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -58,14 +60,14 @@ namespace Software_Innovatec
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(301, 118);
+            this.textBox1.Location = new System.Drawing.Point(301, 109);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(157, 20);
             this.textBox1.TabIndex = 1;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(301, 194);
+            this.textBox2.Location = new System.Drawing.Point(301, 144);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(157, 20);
@@ -75,7 +77,7 @@ namespace Software_Innovatec
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(100, 192);
+            this.label2.Location = new System.Drawing.Point(100, 142);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(96, 20);
             this.label2.TabIndex = 2;
@@ -85,7 +87,7 @@ namespace Software_Innovatec
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(100, 261);
+            this.label3.Location = new System.Drawing.Point(100, 190);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(174, 20);
             this.label3.TabIndex = 4;
@@ -103,7 +105,7 @@ namespace Software_Innovatec
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(301, 260);
+            this.dateTimePicker1.Location = new System.Drawing.Point(301, 190);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 8;
@@ -113,7 +115,7 @@ namespace Software_Innovatec
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(301, 319);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.Size = new System.Drawing.Size(169, 21);
             this.comboBox1.TabIndex = 9;
             // 
             // panel1
@@ -129,7 +131,7 @@ namespace Software_Innovatec
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(100, 398);
+            this.label5.Location = new System.Drawing.Point(86, 397);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(233, 20);
             this.label5.TabIndex = 11;
@@ -137,7 +139,7 @@ namespace Software_Innovatec
             // 
             // dateTimePicker2
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(341, 397);
+            this.dateTimePicker2.Location = new System.Drawing.Point(325, 396);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker2.TabIndex = 12;
@@ -182,11 +184,33 @@ namespace Software_Innovatec
             this.button4.Text = "Eliminar";
             this.button4.UseVisualStyleBackColor = true;
             // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.Transparent;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.Black;
+            this.label13.Location = new System.Drawing.Point(86, 229);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(216, 20);
+            this.label13.TabIndex = 50;
+            this.label13.Text = "Descripcion del problema ";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(301, 229);
+            this.textBox4.Multiline = true;
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(270, 81);
+            this.textBox4.TabIndex = 62;
+            // 
             // Reparaciones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(660, 568);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.label13);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -227,5 +251,7 @@ namespace Software_Innovatec
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TextBox textBox4;
     }
 }

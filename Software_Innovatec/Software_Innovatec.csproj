@@ -59,6 +59,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CONEXION.cs" />
+    <Compile Include="ConsultarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarCliente.Designer.cs">
+      <DependentUpon>ConsultarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DATOSGET.cs" />
+    <Compile Include="EfectivoCredito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EfectivoCredito.Designer.cs">
+      <DependentUpon>EfectivoCredito.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +123,12 @@
     <Compile Include="Reparaciones.Designer.cs">
       <DependentUpon>Reparaciones.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ConsultarCliente.resx">
+      <DependentUpon>ConsultarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EfectivoCredito.resx">
+      <DependentUpon>EfectivoCredito.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

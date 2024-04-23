@@ -111,6 +111,7 @@ namespace Software_Innovatec
             // lineShape2
             // 
             this.lineShape2.BorderColor = System.Drawing.Color.DimGray;
+            this.lineShape2.Enabled = false;
             this.lineShape2.Name = "lineShape2";
             this.lineShape2.X1 = 320;
             this.lineShape2.X2 = 722;
@@ -123,7 +124,7 @@ namespace Software_Innovatec
             this.txtContraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtContraseña.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtContraseña.ForeColor = System.Drawing.Color.DimGray;
-            this.txtContraseña.Location = new System.Drawing.Point(320, 142);
+            this.txtContraseña.Location = new System.Drawing.Point(320, 141);
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.Size = new System.Drawing.Size(403, 20);
             this.txtContraseña.TabIndex = 4;
