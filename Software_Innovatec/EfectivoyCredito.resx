@@ -117,44 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="lineShape2.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>322, 165, 402, 0</value>
-  </metadata>
-  <metadata name="lineShape2.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>322, 165</value>
-  </metadata>
-  <metadata name="lineShape2.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>402, 0</value>
-  </metadata>
-  <metadata name="lineShape1.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>320, 100, 402, 0</value>
-  </metadata>
-  <metadata name="lineShape1.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>320, 100</value>
-  </metadata>
-  <metadata name="lineShape1.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>402, 0</value>
-  </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pbCERRAR.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        xAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAANRSURBVHhe1ZtN
-        chMxEIWHC8AtAgWXAA4WdoEt7DhGwiE8/tkR2DhbEijMOqxivnbUrkTWJPOjlppX9SplqSW99zz2yKlR
-        k8J8Pn8Lz+Af+Bd+b9v2eLVaPQslbiEaRatoDto3i8XidDabvQ4l3dhut08Y/J5B2w5eLJfL56HcHdB3
-        JBrv6L1HgjgRj6H8PoL5j6mBEX8x0aswzA3QdYSuH5HWA1Lz+SAEaaDzU1z8AF2FgJ5e5pUHIdD4IS7q
-        wSs+by/CFNUgH0m0XEbaHqV81HcT8EK+8JJFPVg1hLHmlYTwRgL4EncMZJUQppoPPJMA5FaX6hzCoiFk
-        Mi/cSAByr0x1DuVliRAymhdeSwDfosYpNA0hs3nh1ybsmlKdY2kSgpgfcqvrQ/EuATzlRefuaSSzhmBh
-        Hq7F+34BGnJeWsIsIRiZv5J5wxK3oHHQbqonfzLn6B0j48tqotNNCIyro4Wi6iFQX1cDxdUEUOfjKmRQ
-        cSH0+zCvYHAxQbT7Mq9gEnNhvPZpXsFkZgL569u8QjY1TJx9s2Rg3u6XKZNbvFs5mf+dj8EiXkOwN69g
-        MW8hlDOvYFEvIZQ3r2Dx2iHUM69ARK0Q6ptXIKZ0CH7MKxBVKgR/5hWIsw7Br3kFIq1C8G9egFCzANq2
-        fRmW8QlEmn8E3IaAuGJfgu5CQFQp80o/ISCmtHll/RAQUcu8sl4ILF7bvLJ8CCzqxbyyXAgs5s280j4E
-        FvFqXmm3W7T6p2hgqm8s8z+fwKQW7/zukuWvydzZrgQmMzMfljBbY3IITGJuXkG7rxAYXMy8gn4fITCo
-        uHkFdXVDoLiaeQX1dUKgqLp5BePKhkCnG/MKxpcJgUY5aeFyQ2K1Ads/Jsc7JA9KrqOCqcy6GzMK4UK8
-        /zePyhqF8E4u//OocQpNzCsMQjiXAK6jxrE0Na/IHMLucflN1DiGRQ9MZAzhd8Mt4TTRMYRVjszkCEG8
-        N3KiMtXZk1XMKyaGcLM/Tcqd4KHTol2sal4xNgTxHKYYdGpUOfwXliHQM2jHSG369GjPEFyZV6CrVwhJ
-        8wrpoOAkNTBwfXDSwhHCyZeuXe2NXPad5u9CvhwIQu4OcouUY3XnDD6Gt2dsHEM0ilY0y2m4R47PN80/
-        yLBMQus8MvQAAAAASUVORK5CYII=
-</value>
-  </data>
 </root>
