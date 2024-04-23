@@ -88,6 +88,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Registro_de_Ventas.resx">
+      <DependentUpon>Registro_de_Ventas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reparaciones.resx">
       <DependentUpon>Reparaciones.cs</DependentUpon>
     </EmbeddedResource>
