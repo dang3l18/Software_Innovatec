@@ -200,6 +200,7 @@ namespace Software_Innovatec
             this.Controls.Add(this.button2);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Registro_de_Ventas";
             this.Text = "Registro_de_Ventas";
             this.panel1.ResumeLayout(false);

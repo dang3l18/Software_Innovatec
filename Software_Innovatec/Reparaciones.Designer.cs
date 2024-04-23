@@ -122,7 +122,7 @@ namespace Software_Innovatec
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(670, 81);
+            this.panel1.Size = new System.Drawing.Size(660, 81);
             this.panel1.TabIndex = 10;
             // 
             // label5
@@ -145,7 +145,7 @@ namespace Software_Innovatec
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(41, 458);
+            this.button1.Location = new System.Drawing.Point(35, 480);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(122, 30);
             this.button1.TabIndex = 13;
@@ -155,7 +155,7 @@ namespace Software_Innovatec
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(186, 458);
+            this.button2.Location = new System.Drawing.Point(180, 480);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(122, 30);
             this.button2.TabIndex = 14;
@@ -165,7 +165,7 @@ namespace Software_Innovatec
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(354, 458);
+            this.button3.Location = new System.Drawing.Point(348, 480);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(122, 30);
             this.button3.TabIndex = 15;
@@ -175,7 +175,7 @@ namespace Software_Innovatec
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(494, 458);
+            this.button4.Location = new System.Drawing.Point(488, 480);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(122, 30);
             this.button4.TabIndex = 16;
@@ -186,7 +186,7 @@ namespace Software_Innovatec
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(670, 515);
+            this.ClientSize = new System.Drawing.Size(660, 568);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -202,6 +202,7 @@ namespace Software_Innovatec
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Reparaciones";
             this.Text = "Reparaciones";
             this.ResumeLayout(false);

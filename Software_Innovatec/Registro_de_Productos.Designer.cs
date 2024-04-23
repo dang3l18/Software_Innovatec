@@ -260,6 +260,7 @@ namespace Software_Innovatec
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Registro_de_Productos";
             this.Text = "Registro_de_Productos";
             this.panel1.ResumeLayout(false);
