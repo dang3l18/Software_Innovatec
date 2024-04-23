@@ -64,6 +64,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registro_de_Productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro_de_Productos.Designer.cs">
+      <DependentUpon>Registro_de_Productos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Registro_de_Ventas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +94,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Registro_de_Productos.resx">
+      <DependentUpon>Registro_de_Productos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Registro_de_Ventas.resx">
       <DependentUpon>Registro_de_Ventas.cs</DependentUpon>
     </EmbeddedResource>
