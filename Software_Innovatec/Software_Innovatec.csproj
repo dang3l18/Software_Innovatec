@@ -58,6 +58,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base_de_datos_innovatecDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Base_de_datos_innovatecDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="CONEXION.cs" />
     <Compile Include="ConsultarCliente.cs">
       <SubType>Form</SubType>
@@ -84,6 +89,7 @@
     <Compile Include="Inventario.Designer.cs">
       <DependentUpon>Inventario.cs</DependentUpon>
     </Compile>
+    <Compile Include="Metodos.cs" />
     <Compile Include="Movimientos_de_Inventario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -162,6 +168,17 @@
     <EmbeddedResource Include="Reparaciones.resx">
       <DependentUpon>Reparaciones.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Base_de_datos_innovatecDataSet.xsc">
+      <DependentUpon>Base_de_datos_innovatecDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Base_de_datos_innovatecDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Base_de_datos_innovatecDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Base_de_datos_innovatecDataSet.xss">
+      <DependentUpon>Base_de_datos_innovatecDataSet.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -6,36 +6,50 @@ using System.Threading.Tasks;
 
 namespace Software_Innovatec
 {
-    public class DatosGet
+    public class DatosGetRegistrarProductos
+
+
+
     {
-        public int codigo_producto { get; set; }
-        public string nombre_producto { get; set; }
-        public string marca { get; set; }
-        public string modelo { get; set; }
-        public string categoria { get; set; }
-        public decimal precio_compra { get; set; }
-        public decimal precio_venta { get; set; }
-        public string stock { get; set; }
-        public string ubicacion { get; set; }
-        public string estado { get; set; }
+        // Registro de productos
+        public int CodigoProducto { get; set; }
+        public string Estado { get; set; }
+        public string Producto { get; set; }
+        public string Edicion { get; set; }
+        public int Cantidad { get; set; }
+        public decimal PrecioCompra { get; set; }
+        public decimal PrecioVenta { get; set; }
+        public int Stock { get; set; }
 
+        public DatosGetRegistrarProductos() { }
+        // Campos de productos
+        public DatosGetRegistrarProductos(int Pcodigo_producto, string Pestado_producto, string Pnombre_producto, string Pedicion, int Pcantidad, decimal Pprecio_compra, decimal Pprecio_venta, int Pstock)
 
-
-        public DatosGet() { }
-        public DatosGet(int Pcodigo_producto, string Pnombre_producto, string Pmarca, string Pmodelo, string Pcategoria, decimal Pprecio_compra, decimal Pprecio_venta, string Pstock, string Pubicacion, string Pestado)
         {
-            this.codigo_producto = Pcodigo_producto;
-            this.nombre_producto = Pnombre_producto;
-            this.marca = Pmarca;
-            this.modelo = Pmodelo;
-            this.categoria = Pcategoria;
-            this.precio_compra = precio_compra;
-            this.precio_venta = Pprecio_venta;
-            this.stock = Pstock;
-            this.ubicacion = Pubicacion;
-            this.estado = Pestado;
+            this.CodigoProducto = Pcodigo_producto;
+            this.Estado = Pestado_producto;
+            this.Producto = Pnombre_producto;
+            this.Edicion = Pedicion;
+            this.Cantidad = Pcantidad;
+            this.PrecioCompra = Pprecio_compra;
+            this.PrecioVenta = Pprecio_venta;
+            this.Stock = Pstock;
 
 
         }
+
     }
-}
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+

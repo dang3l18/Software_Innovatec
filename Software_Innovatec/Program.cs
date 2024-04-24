@@ -16,7 +16,7 @@ namespace Software_Innovatec
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Registro_de_Productos());
         }
     }
 }
