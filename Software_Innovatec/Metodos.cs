@@ -14,7 +14,7 @@ namespace Software_Innovatec
             int retorno = 0;
 
             CONEXION.opencon();
-            SqlCommand comando = new SqlCommand(string.Format("INSERT INTO Producto(CodigoProducto, Estado, Producto, Edicion, Cantidad, PrecioCompra, PrecioVenta, Stock) VALUES ('{0}', '{1}', '{2}', '{3}')",
+            SqlCommand comando = new SqlCommand(string.Format("INSERT INTO Productos (CodigoProducto, Estado, Producto, Edicion, Cantidad, PrecioCompra, PrecioVenta, Stock) VALUES ('{0}', '{1}', '{2}', '{3}')",
                 pget.CodigoProducto, pget.Estado, pget.Producto, pget.Edicion,pget.Cantidad,pget.PrecioCompra,pget.PrecioVenta,pget.Stock), CONEXION.obtenerconexión());
 
             retorno = comando.ExecuteNonQuery();

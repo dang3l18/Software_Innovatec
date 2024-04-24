@@ -30,6 +30,7 @@ namespace Software_Innovatec
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnGuardar = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -48,7 +49,6 @@ namespace Software_Innovatec
             this.label7 = new System.Windows.Forms.Label();
             this.txtStock = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.btnGuardar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,6 +63,17 @@ namespace Software_Innovatec
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(172, 528);
             this.panel1.TabIndex = 0;
+            // 
+            // btnGuardar
+            // 
+            this.btnGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardar.Location = new System.Drawing.Point(29, 70);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(98, 34);
+            this.btnGuardar.TabIndex = 3;
+            this.btnGuardar.Text = "Guardar";
+            this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // button3
             // 
@@ -115,6 +126,10 @@ namespace Software_Innovatec
             // CBEstado
             // 
             this.CBEstado.FormattingEnabled = true;
+            this.CBEstado.Items.AddRange(new object[] {
+            "Nuevo ",
+            "Usado",
+            "Reacondicionado"});
             this.CBEstado.Location = new System.Drawing.Point(409, 98);
             this.CBEstado.Name = "CBEstado";
             this.CBEstado.Size = new System.Drawing.Size(145, 21);
@@ -227,17 +242,6 @@ namespace Software_Innovatec
             this.label8.Size = new System.Drawing.Size(55, 20);
             this.label8.TabIndex = 16;
             this.label8.Text = "Stock";
-            // 
-            // btnGuardar
-            // 
-            this.btnGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuardar.Location = new System.Drawing.Point(29, 70);
-            this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(98, 34);
-            this.btnGuardar.TabIndex = 3;
-            this.btnGuardar.Text = "Guardar";
-            this.btnGuardar.UseVisualStyleBackColor = true;
-            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // Registro_de_Productos
             // 

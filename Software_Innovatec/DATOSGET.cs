@@ -23,13 +23,13 @@ namespace Software_Innovatec
 
         public DatosGetRegistrarProductos() { }
         // Campos de productos
-        public DatosGetRegistrarProductos(int Pcodigo_producto, string Pestado_producto, string Pnombre_producto, string Pedicion, int Pcantidad, decimal Pprecio_compra, decimal Pprecio_venta, int Pstock)
+        public DatosGetRegistrarProductos(int Pcodigo_producto, string PEstado, string PProducto, string PEdicion, int Pcantidad, decimal Pprecio_compra, decimal Pprecio_venta, int Pstock)
 
         {
             this.CodigoProducto = Pcodigo_producto;
-            this.Estado = Pestado_producto;
-            this.Producto = Pnombre_producto;
-            this.Edicion = Pedicion;
+            this.Estado = PEstado;
+            this.Producto = PProducto;
+            this.Edicion = PEdicion;
             this.Cantidad = Pcantidad;
             this.PrecioCompra = Pprecio_compra;
             this.PrecioVenta = Pprecio_venta;
